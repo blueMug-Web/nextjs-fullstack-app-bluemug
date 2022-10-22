@@ -24,3 +24,15 @@ Setting up STORYBOOK
 npx sb init --builder webpack5
 
 yarn add util (to resolve errors when running 'yarn storybook')
+
+---------------------------------
+
+If pulling images from an external URL, add this 'images' line to next.config.js:
+
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['i.pravatar.cc'],
+  },
+};
