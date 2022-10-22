@@ -18,3 +18,9 @@ For Debugging, in package.json, set the "dev" variables under 'scripts' to this:
 -> "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
 
 ---------------------------------
+
+Setting up STORYBOOK
+
+npx sb init --builder webpack5
+
+yarn add util (to resolve errors when running 'yarn storybook')
