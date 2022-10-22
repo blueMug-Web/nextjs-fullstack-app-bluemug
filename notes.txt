@@ -8,3 +8,13 @@ git lfs update --force
 
 ---------------------------------
 
+yarn add -D cross-env
+
+SOLUTION: This allows you to set .env variables on PC, Mac, Linux, etc. (Cross-Platform Environment variables)
+
+then do this:
+
+For Debugging, in package.json, set the "dev" variables under 'scripts' to this:
+-> "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+
+---------------------------------
