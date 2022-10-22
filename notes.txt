@@ -1,0 +1,10 @@
+ERROR:
+stdin is not a tty
+error: failed to push some refs to 'github.com:xxx/yyy.git'
+
+SOLVED BY:
+git lfs update --force
+
+
+---------------------------------
+
